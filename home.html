@@ -162,29 +162,39 @@
                     <a href="#" class="card__icon"><ion-icon name="cart-outline"></ion-icon></a>
                 </div>
             </article>
-            <article class="card">
-                 <form class="gform" method="POST" data-email="budhauchachabarfiwale@gmail.com" action="https://script.google.com/macros/s/AKfycbwD4hxgDOnyHZJZEcLKxZhyhxKpzsWMOUpYe5XGZg/exec">
-                    <label>CONTACT US</label><BR>
-    <label for="fname">Name and Contact</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
-<br>
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
-<br>
-    <input type="submit" value="Submit">
-
-  </form>
-  <div>
-                        <span class="card__preci card__preci--now">Mo- +91-8874737172   <br>R K CHAUDHARY</span>
-                    </div>
-
-            </article>
         </main>
         <br>
         <br>
+        <hr>
+        <header>
+            <h1>Contact us</h1>
+        </header>
+        <div id="form">
 
+            <div class="fish" id="fish"></div>
+            <div class="fish" id="fish2"></div>
+            
+            <form id="waterform" method="post" class="gform" data-email="budhauchachabarfiwale@gmail.com" action="https://script.google.com/macros/s/AKfycbwD4hxgDOnyHZJZEcLKxZhyhxKpzsWMOUpYe5XGZg/exec">
+            
+            <div class="formgroup" id="name-form">
+                <label for="name">Your name*</label>
+                <input type="text" id="name" name="name" />
+            </div>
+            
+            <div class="formgroup" id="email-form">
+                <label for="email">Your e-mail*</label>
+                <input type="email" id="email" name="email" />
+            </div>
+            
+            <div class="formgroup" id="message-form">
+                <label for="message">Your message</label>
+                <textarea id="message" name="message"></textarea>
+            </div>
+            
+                <input type="submit" value="Send your message!" />
+            </form>
+            </div>
     </div>
-
 
 
     <!-- Optional JavaScript -->
