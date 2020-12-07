@@ -308,13 +308,13 @@ article:nth-child(9){
 }
 
 
-h1{
+.myh1{
 	font-weight: normal;
 	font-size: 4em;
 	font-family: 'Raleway', sans-serif;
 	margin: 0 auto;
 	margin-top: 30px;
-	width: 500px;
+	width: auto;
 	color: #F90;
 	text-align: center;
 
@@ -338,7 +338,7 @@ h1{
 
 .fish{
 	background-image: url('http://www.geertjanhendriks.nl/codepen/form/fish.png');
-	width: 235px;
+	width: 200px;
 	height: 104px;
 	margin-left: -235px;
 	position: absolute;	
@@ -375,7 +375,7 @@ header{
 }
 form{
 	margin: 0 auto;
-	width: 500px;
+	width: 300px;
 	padding-top: 40px;
 	color: white;
 	position: relative;
@@ -386,7 +386,7 @@ label, input, textarea{
 	display: block;	
 }
 input, textarea{
-	width: 500px;	
+	width: 300px;	
 	border: none;
 	border-radius: 20px;
 	outline: none;
